@@ -102,4 +102,6 @@ let customerRating = parseInt(prompt("Enter your rating 1-5: "));
 See my-app.js lines 38-47
 ```
 
-<iframe width="432" height="243" src="https://www.youtube.com/embed/_7HStd1Vhlc" title="Javascript Project Build A Library" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[JS Project Build a Library](<iframe width="432" height="243" src="https://www.youtube.com/embed/_7HStd1Vhlc" title="Javascript Project Build A Library" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
+
+[JS Project Build a Library](https://youtu.be/_7HStd1Vhlc)
