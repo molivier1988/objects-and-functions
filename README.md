@@ -81,7 +81,7 @@ For **methods** call as you would any normal function i.e. use `()` after the fu
 
 This was a relatively simple project to complete, the principles of classes, inheritance and objects as well as creating classes and objects was pretty straight forward. The were a couple of points to note:
 
-1. Need to put something in here re: using this in class functions (watch the video again)
+1. When defining class methods which access class properties you **never** need to directly use the property itself inside the class, rather call which ever getter method required.
 
 2. I wanted to extend the functionality of the `addRating()` function. In the Codecademy solution the function was called directly with an argument provided e.g. `speed.addRating(3);`. But I wanted to extend the function by asking the user to add a rating as part of a prompt. However my first try broke the `getAverageRating()` function. I couldn't understand why, when entering the ratings of 1, 3 and 5 I was getting an average rating of **45**. Why was this happening? Look at my first iteration:
 
@@ -101,3 +101,5 @@ let customerRating = parseInt(prompt("Enter your rating 1-5: "));
 
 See my-app.js lines 38-47
 ```
+
+<iframe width="432" height="243" src="https://www.youtube.com/embed/_7HStd1Vhlc" title="Javascript Project Build A Library" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
